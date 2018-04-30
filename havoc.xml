@@ -8,6 +8,10 @@
     <remote name="havoc"
         fetch="https://github.com/Shady-ROM"
         sync-j="16" />
+		
+    <remote  name="private"
+        fetch="ssh://git@github.com"
+        revision="oreo" />
 
     <!-- General -->
     <project path="build/kati" name="android_build_kati" remote="havoc" revision="oreo" />
@@ -67,7 +71,7 @@
 
     <!-- Frameworks -->
     <project path="frameworks/av" name="android_frameworks_av" remote="havoc" revision="oreo" />
-    <project path="frameworks/base" name="android_frameworks_base" remote="havoc" revision="oreo" />
+    <project path="frameworks/base" name="ZeNiXxX/aosp_fwb_havoc" remote="private" revision="oreo" />
     <project path="frameworks/native" name="android_frameworks_native" remote="havoc" revision="oreo" />
     <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="havoc" revision="oreo" />
     <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="havoc" revision="oreo" />
@@ -75,10 +79,10 @@
     <!-- Packages -->
     <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="havoc" revision="oreo" />
     <project path="packages/apps/HavocOTA" name="android_packages_apps_HavocOTA" remote="havoc" revision="oreo" />
-    <project path="packages/apps/HavocSettings" name="android_packages_apps_HavocSettings" remote="havoc" revision="oreo" />
+    <project path="packages/apps/HavocSettings" name="ZeNiXxX/aosp_Havoc_Settings" remote="private" revision="oreo" />
     <project path="packages/apps/OmniJaws" name="android_packages_services_OmniJaws" remote="havoc" revision="oreo" />
     <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="havoc" revision="oreo" />
-    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="havoc" revision="oreo" />
+    <project path="packages/apps/Settings" name="ZeNiXxX/aosp_packages_apps_havoc" remote="private" revision="oreo" />
     <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="havoc" revision="oreo" />
 
     <!-- Services -->
