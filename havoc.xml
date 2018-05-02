@@ -12,6 +12,10 @@
     <remote  name="private"
         fetch="ssh://git@github.com"
         revision="oreo" />
+    
+        <remote  name="test"
+        fetch="ssh://git@github.com"
+        revision="test" />
 
     <!-- General -->
     <project path="build/kati" name="android_build_kati" remote="havoc" revision="oreo" />
@@ -71,7 +75,7 @@
 
     <!-- Frameworks -->
     <project path="frameworks/av" name="android_frameworks_av" remote="havoc" revision="oreo" />
-    <project path="frameworks/base" name="ZeNiXxX/aosp_fwb_havoc" remote="private" revision="oreo" />
+    <project path="frameworks/base" name="ZeNiXxX/aosp_fwb_havoc" remote="test" revision="test" />
     <project path="frameworks/native" name="android_frameworks_native" remote="havoc" revision="oreo" />
     <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="havoc" revision="oreo" />
     <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="havoc" revision="oreo" />
