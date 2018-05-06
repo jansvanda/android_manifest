@@ -75,7 +75,7 @@
 
     <!-- Frameworks -->
     <project path="frameworks/av" name="android_frameworks_av" remote="havoc" revision="oreo" />
-    <project path="frameworks/base" name="ZeNiXxX/aosp_fwb_havoc" remote="test" revision="test" />
+    <project path="frameworks/base" name="ZeNiXxX/aosp_fwb_havoc" remote="private" revision="test" />
     <project path="frameworks/native" name="android_frameworks_native" remote="havoc" revision="oreo" />
     <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="havoc" revision="oreo" />
     <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="havoc" revision="oreo" />
