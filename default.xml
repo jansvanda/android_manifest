@@ -624,6 +624,6 @@
   <!-- Remove unused AOSP repos -->
   <include name="remove.xml" />
 
-  <!-- Add all tracked Havoc repos -->
-  <include name="havoc.xml" />
+  <!-- Add all tracked mnml repos -->
+  <include name="mnml.xml" />
 </manifest>
